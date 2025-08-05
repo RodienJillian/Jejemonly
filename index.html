@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <script src="scripts/script.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dakq2u8n0/image/upload/v1754391657/Send_cek9yq.png">
+        <title>Jejemonly</title>
+    </head>
+    <body>
+        <div id="responsive-container">
+            <header>
+                <div class="shine-effect"></div>
+                <img id="logo-img" src="images/jeje.png">
+                <h1 class="title"><span class="jeje-title">Jejemonly</span></h1>
+                <p class="description">In partial fulfillment of the requirements for Natural Language Processing</p>
+                <p class="description">Developed by Rey Arby Castro and Rodien Jillian Ellorando</p>
+
+            </header>
+            <main>
+                <h1>Introduction</h1>
+                <p>Jejemonly is a desktop application designed to normalize Jejemon-style text into standard readable text. The system uses a step-by-step transformation process, making it useful for academic tasks like Natural Language Processing and text preprocessing.</p>
+                
+                <h1>Features</h1>
+                    <p>1. GUI-based interface using PyQt5</p>
+                    <p>2. Step-by-step normalization process:</p>
+                        <ul>
+                            <li>Punctuation cleanup</li>
+                            <li>Character replacement</li>
+                            <li>Tokenization</li>
+                            <li>Final normalized output</li>
+                        </ul>
+                    <p>3. Visual guide using custom fonts and images</p>
+                    <p>4. Fun and interactive learning tool for NLP basics</p>
+
+                <h1>Sample Screenshots</h1>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="images/B1.png">
+                        <img src="images/B2.png">
+                        <img src="images/B3.png">
+                        <img src="images/B4.png">
+                        <img src="images/B5.png">
+                    
+                    </div>
+                    <button class="prev"><</button>
+                    <button class="next">></button>
+                </div>
+
+                <h1>Logic behind it </h1>
+                <p>The core logic of JejemOnly lies in its multi-step normalization pipeline designed to clean and convert Jejemon-style text into standard, readable language. Each step plays a specific role in reducing noise and restoring clarity:</p>
+                    <h2>Punctuation Evaluation</h2>
+                        <ul>
+                            <li>Irregular punctuation marks are removed or replaced with proper punctuation.</li>
+                            <li>Ensures the sentence structure becomes more readable before deeper processing.</li>
+                        </ul>
+
+                    <h2>Character Replacement</h2>
+                        <ul>
+                            <li>Jejemon text often uses numbers and symbols in place of letters (e.g., "h3ll0" → "hello").</li>
+                            <li>A mapping system replaces distorted characters with their normal equivalents based on a predefined lexicon.</li>
+                        </ul>
+                    
+                    <h2>Tokenization</h2>
+                        <ul>
+                            <li>The cleaned text is split into tokens (words or phrases), making it easier to apply normalization rules per word.</li>
+                            <li>Helps prepare the text for matching with standard words.</li>
+                        </ul>
+
+                    <h2>Lexical Matching and Normalization</h2>
+                        <ul>
+                            <li>Each token is checked against a dictionary or pattern rules to determine its closest standard equivalent.</li>
+                            <li>This includes using string similarity metrics (like edit distance) to handle misspellings and exaggerated word forms.</li>
+                        </ul>
+
+                    <h2>Final Output Generation</h2>
+                        <ul>
+                            <li>The normalized tokens are reassembled into a clean, human-readable sentence.</li>
+                            <li>The output aims to retain the original intent while improving clarity and readability.</li>
+                        </ul>
+
+            </main>
+            <footer>
+                Documented by <a>Rodien Jillian</a>
+            </footer>
+        </div>
+    </body>
+</html>

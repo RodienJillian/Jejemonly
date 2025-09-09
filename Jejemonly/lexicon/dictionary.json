@@ -1,0 +1,725 @@
+{
+  "jejemon_to_normal": {
+    "7hol": "city hall",
+    "purp053": "purpose",
+    "fr3n": "friend",
+    "3ow": "hello",
+    "ei0w": "hello",
+    "wudd": "would",
+    "p0h": "po",
+    "phoe": "po",
+    "pow": "po",
+    "p": "pa",
+    "aq": "ako",
+    "yezz": "yes",
+    "d": "the",
+    "dat": "that",
+    "dats": "that's",
+    "datsit": "that's it",
+    "datsall": "that's all",
+    "dis": "this",
+    "disit": "this's it",
+    "disall": "this's all",
+    "2": "to",
+    "4": "for",
+    "7": "city",
+    "siete": "city",
+    "jeje": "haha",
+    "u": "you",
+    "r": "are",
+    "y": "why",
+    "ur": "your",
+    "poh": "po",
+    "nman": "naman",
+    "kc": "kasi",
+    "cguro": "siguro",
+    "bka": "baka",
+    "khit": "kahit",
+    "bk8": "bakit",
+    "cno": "sino",
+    "gsto": "gusto",
+    "pra": "para",
+    "skn": "sakin",
+    "sau": "sayo",
+    "nlng": "nalang",
+    "wla": "wala",
+    "tym": "time",
+    "txt": "text",
+    "msg": "message",
+    "mor": "more",
+    "luv": "love",
+    "lab": "love",
+    "lyk": "like",
+    "kht": "kahit",
+    "pls": "please",
+    "plz": "please",
+    "thx": "thanks",
+    "sowi": "sorry",
+    "sow33": "sorry",
+    "sowwwyyyy": "sorry",
+    "b4": "before",
+    "l8r": "later",
+    "c": "see",
+    "k": "okay",
+    "ok": "okay",
+    "gud": "good",
+    "gd": "good",
+    "bt": "but",
+    "n": "and",
+    "nd": "and",
+    "w": "with",
+    "q": "ko",
+    "wout": "without",
+    "bcoz": "because",
+    "coz": "because",
+    "bcz": "because",
+    "bcos": "because",
+    "frm": "from",
+    "nyt": "night",
+    "mrng": "morning",
+    "aftr": "after",
+    "sumtyms": "sometimes",
+    "sumtym": "sometime",
+    "sentenz": "sentence",
+    "nyc": "nice",
+    "fyn": "fine",
+    "lyf": "life",
+    "hpy": "happy",
+    "wat": "what",
+    "wut": "what",
+    "mgandng": "magandang",
+    "umga": "umaga",
+    "gbi": "gabi",
+    "hpn": "happen",
+    "kpg": "kapag",
+    "lng": "lang",
+    "mgkita": "magkita",
+    "ksma": "kasama",
+    "kng": "kung",
+    "kta": "kita",
+    "nkta": "nakita",
+    "kwento": "kwento",
+    "stry": "story",
+    "gnda": "ganda",
+    "pogi": "pogi",
+    "qt": "cute",
+    "kyut": "cute",
+    "swt": "sweet",
+    "dw": "daw",
+    "raw": "raw",
+    "kya": "kaya",
+    "tpos": "tapos",
+    "tpz": "tapos",
+    "pwd": "pwede",
+    "pde": "pwede",
+    "mron": "meron",
+    "my": "may",
+    "wg": "wag",
+    "hnd": "hindi",
+    "hdi": "hindi",
+    "oo": "oo",
+    "opo": "opo",
+    "sge": "sige",
+    "cge": "sige",
+    "haha": "haha",
+    "hehe": "hehe",
+    "hihi": "hihi",
+    "lol": "lol",
+    "rofl": "rofl",
+    "lmao": "lmao",
+    "omg": "omg",
+    "wtf": "wtf",
+    "btw": "by the way",
+    "ttyl": "talk to you later",
+    "brb": "be right back",
+    "g2g": "got to go",
+    "gtg": "got to go",
+    "hbd": "happy birthday",
+    "tc": "take care",
+    "xmpre": "syempre",
+    "pFow": "po",
+    "poehwz": "po",
+    "aQ": "ako",
+    "nU": "ano",
+    "tHAnqz": "thanks",
+    "mWaHh": "mwah",
+    "gW4": "gawa",
+    "h3LLoHh": "hello",
+    "kEwLxZ": "cool",
+    "sHaRapHh": "sarap",
+    "pFuhH": "po",
+    "fR3nZz": "friends",
+    "gRrRzZz": "galit",
+    "b3h": "baby",
+    "lAbQ": "love ko",
+    "dTZ": "dates",
+    "wUzzzuP": "what's up",
+    "jEjEjE": "hehehe"
+  },
+
+  "jejemon_levels": {
+    "after": {
+      "mild": ["aftr"],
+      "moderate": ["4ftr"],
+      "severe": ["AFTRH"]
+    },
+    "ako": {
+      "mild": ["aq"],
+      "moderate": ["4q"],
+      "severe": ["AQH"]
+    },
+    "and": {
+      "mild": ["n"],
+      "moderate": ["en"],
+      "severe": ["NH"]
+    },
+    "are": {
+      "mild": ["r"],
+      "moderate": ["ahr", "ahrz"],
+      "severe": ["4RR", "RH"]
+    },
+    "baka": {
+      "mild": ["bka"],
+      "moderate": ["bk4"],
+      "severe": ["BKAH"]
+    },
+    "bakit": {
+      "mild": ["bk8"],
+      "moderate": ["bk8z"],
+      "severe": ["BK8H"]
+    },
+    "be right back": {
+      "mild": ["brb"],
+      "moderate": ["brbz"]
+    },
+    "because": {
+      "mild": ["bcos", "bcoz", "bcz", "coz"],
+      "moderate": ["bc0s", "bc0z", "bcz", "c0z"],
+      "severe": ["BCOZH", "BCZH", "COZH"]
+    },
+    "before": {
+      "mild": ["b4"],
+      "moderate": ["bpor"],
+      "severe": ["Bph0rH"]
+    },
+    "but": {
+      "mild": ["bt"],
+      "moderate": ["bht", "bahT"],
+      "severe": ["BTHh", "BhhuTzz"]
+    },
+    "by the way": {
+      "mild": ["btw"],
+      "moderate": ["BTWHh"],
+      "severe": ["bHtWaaYzz"]
+    },
+    "city": {
+      "mild": ["siete"],
+      "moderate": ["7"],
+      "severe": ["SIETEH"]
+    },
+    "city hall": {
+      "mild": ["7hol"],
+      "moderate": ["7hl"],
+      "severe": ["7HOLH"]
+    },
+    "cute": {
+      "mild": ["kyut", "qt"],
+      "moderate": ["kYuTt", "qTt"],
+      "severe": ["KYUTHzz", "QTHhzz"]
+    },
+    "daw": {
+      "mild": ["dw"],
+      "moderate": ["dWw"],
+      "severe": ["DwhH"]
+    },
+    "fine": {
+      "mild": ["fyn"],
+      "moderate": ["fYnn"],
+      "severe": ["FynHh", "FynHhzz"]
+    },
+    "for": {
+      "mild": ["4"],
+      "moderate": ["FoHr", "por"],
+      "severe": ["4Hh", "P04Rz"]
+    },
+    "friend": {
+      "mild": ["fr3n"],
+      "moderate": ["fR3Nz"],
+      "severe": ["Fr3nDhzz"]
+    },
+    "from": {
+      "mild": ["frm"],
+      "moderate": ["fRmm"],
+      "severe": ["FrMhh"]
+    },
+    "gabi": {
+      "mild": ["gbi"],
+      "moderate": ["GbEe"],
+      "severe": ["GbiHh"]
+    },
+    "ganda": {
+      "mild": ["gnda"],
+      "moderate": ["Gnd4", "gAnDah"],
+      "severe": ["GhAnDd4h"]
+    },
+    "good": {
+      "mild": ["gd", "gud"],
+      "moderate": ["gUdd", "gDzz"],
+      "severe": ["GooDh", "GuDhzz"]
+    },
+    "got to go": {
+      "mild": ["g2g", "gtg"],
+      "moderate": ["g2gzz", "gTgGh"],
+      "severe": ["G2Ghzz", "GtGhH"]
+    },
+    "gusto": {
+      "mild": ["gsto"],
+      "moderate": ["uSt0", "st0h"],
+      "severe": ["GusT0hh", "GsT0Hzz"]
+    },
+    "haha": {
+      "mild": ["haha", "jeje"],
+      "moderate": ["jEjE", "hAhA"],
+      "severe": ["HAHAHh", "JEjEhzz"]
+    },
+    "happen": {
+      "mild": ["hpn"],
+      "moderate": ["HpNn"],
+      "severe": ["HpNnHh"]
+    },
+    "happy": {
+      "mild": ["hpy"],
+      "moderate": ["HpYy"],
+      "severe": ["Hapiiiehh", "HpYHh"]
+    },
+    "happy birthday": {
+      "mild": ["hbd"],
+      "moderate": ["habadu", "HbDzz", "HpBDee"],
+      "severe": ["HbDhHzz", "HBDHH"]
+    },
+    "hehe": {
+      "mild": ["hehe"],
+      "moderate": ["hEhEz"],
+      "severe": ["HeHehh", "HeHeHzz"]
+    },
+    "hello": {
+      "mild": ["3ow", "ei0w"],
+      "moderate": ["30wz", "E1Ow"],
+      "severe": ["3OWHzz", "EI0WHh"]
+    },
+    "hihi": {
+      "mild": ["hihi"],
+      "moderate": ["HiHiee"],
+      "severe": ["HiHiHh", "hIhiEzz"]
+    },
+    "hindi": {
+      "mild": ["hdi", "hnd"],
+      "moderate": ["ndi", "hNdee"],
+      "severe": ["HndHzz", "Hndiiehh"]
+    },
+    "kahit": {
+      "mild": ["khit", "kht"],
+      "moderate": ["Kahyt", "khYt"],
+      "severe": ["KHiThzz", "kHTieHH"]
+    },
+    "kapag": {
+      "mild": ["kpg"],
+      "moderate": ["kPgz"],
+      "severe": ["KPGH"]
+    },
+    "kasama": {
+      "mild": ["ksma"],
+      "moderate": ["ksm4"],
+      "severe": ["KSMAH"]
+    },
+    "kasi": {
+      "mild": ["kc"],
+      "moderate": ["kcZz"],
+      "severe": ["KahzZ"]
+    },
+    "kaya": {
+      "mild": ["kya"],
+      "moderate": ["ky4"],
+      "severe": ["KYAH"]
+    },
+    "kita": {
+      "mild": ["kta"],
+      "moderate": ["kt4"],
+      "severe": ["KTAH"]
+    },
+    "ko": {
+      "mild": ["q"],
+      "moderate": ["koHh"],
+      "severe": ["QH"]
+    },
+    "kung": {
+      "mild": ["kng"],
+      "moderate": ["kNgz"],
+      "severe": ["KNGH"]
+    },
+    "kwento": {
+      "mild": ["kwento"],
+      "moderate": ["kw3nt0", "kwnto"],
+      "severe": ["KWENTOH"]
+    },
+    "lang": {
+      "mild": ["lng"],
+      "moderate": ["lngz"],
+      "severe": ["LNGH"]
+    },
+    "later": {
+      "mild": ["l8r"],
+      "moderate": ["l8rZz"],
+      "severe": ["L8RH"]
+    },
+    "life": {
+      "mild": ["lyf", "lyff"],
+      "moderate": ["lYfie"],
+      "severe": ["LYFH"]
+    },
+    "like": {
+      "mild": ["lyk"],
+      "moderate": ["lykk"],
+      "severe": ["LYKH"]
+    },
+    "lmao": {
+      "mild": ["lmao"],
+      "moderate": ["lmaoZz"],
+      "severe": ["LMAOHh"]
+    },
+    "lol": {
+      "mild": ["lol"],
+      "moderate": ["l0l", "l0lZz"],
+      "severe": ["LOLHh", "L0LHzz"]
+    },
+    "love": {
+      "mild": ["lab", "luv"],
+      "moderate": ["l4b", "luv", "l4v"],
+      "severe": ["LABH", "LUVH"]
+    },
+    "magandang": {
+      "mild": ["mgandng"],
+      "moderate": ["mg4ndng"],
+      "severe": ["MGANDNGH"]
+    },
+    "magkita": {
+      "mild": ["mgkita"],
+      "moderate": ["mgkit4"],
+      "severe": ["MGKITAH"]
+    },
+    "may": {
+      "mild": ["my", "mi"],
+      "moderate": ["mYie"],
+      "severe": ["MYH"]
+    },
+    "meron": {
+      "mild": ["mron"],
+      "moderate": ["mronZz"],
+      "severe": ["MRONH"]
+    },
+    "message": {
+      "mild": ["msg"],
+      "moderate": ["m3zaj"],
+      "severe": ["MSGH"]
+    },
+    "morning": {
+      "mild": ["mrng"],
+      "moderate": ["m0rningz"],
+      "severe": ["MRNGH"]
+    },
+    "nakita": {
+      "mild": ["nkta"],
+      "moderate": ["nkt4"],
+      "severe": ["NKTAH"]
+    },
+    "nalang": {
+      "mild": ["nlng"],
+      "moderate": ["nlng"],
+      "severe": ["NLNGH"]
+    },
+    "naman": {
+      "mild": ["nman"],
+      "moderate": ["nm4n"],
+      "severe": ["NMANH"]
+    },
+    "nice": {
+      "mild": ["nyc"],
+      "moderate": ["nyz"],
+      "severe": ["NYCH"]
+    },
+    "night": {
+      "mild": ["nyt"],
+      "moderate": ["n8t"],
+      "severe": ["NYTH"]
+    },
+    "okay": {
+      "mild": ["k", "ok"],
+      "moderate": ["k", "0k", "okie", "okiee"],
+      "severe": ["KH", "OKH", "OKIEH"]
+    },
+    "omg": {
+      "mild": ["omg"],
+      "moderate": ["oMgh"],
+      "severe": ["OMGHh"]
+    },
+    "oo": {
+      "mild": ["oo"],
+      "moderate": ["ooZz", "uu"],
+      "severe": ["OOHh", "UuHh"]
+    },
+    "opo": {
+      "mild": ["opo"],
+      "moderate": ["opowz"],
+      "severe": ["OPOHh"]
+    },
+    "pa": {
+      "mild": ["p"],
+      "moderate": ["p4"],
+      "severe": ["PH"]
+    },
+    "para": {
+      "mild": ["pra"],
+      "moderate": ["pr4"],
+      "severe": ["PRAH"]
+    },
+    "please": {
+      "mild": ["pls", "plz"],
+      "moderate": ["plx", "plzz"],
+      "severe": ["PLSH", "PLZH"]
+    },
+    "po": {
+      "mild": ["p0h", "phoe", "poh", "pow"],
+      "moderate": ["p0h", "ph0e", "p0h", "p0w"],
+      "severe": ["P0HH", "PHOEH", "POHH", "POWH"]
+    },
+    "pogi": {
+      "mild": ["pogi"],
+      "moderate": ["p0gee", "p0gieh"],
+      "severe": ["POGIHh", "P0GIEH"]
+    },
+    "purpose": {
+      "mild": ["purp053"],
+      "moderate": ["pyrp0z"],
+      "severe": ["PyrP0ZH"]
+    },
+    "pwede": {
+      "mild": ["pde", "pwd"],
+      "moderate": ["pdeh", "pwdeh"],
+      "severe": ["PDEH", "PWDH", "PDEHH", "PWDHH"]
+    },
+    "raw": {
+      "mild": ["raw"],
+      "moderate": ["r4w"],
+      "severe": ["RAWH"]
+    },
+    "rofl": {
+      "mild": ["rofl"],
+      "moderate": ["roflZz"],
+      "severe": ["ROFLHh"]
+    },
+    "sakin": {
+      "mild": ["skn"],
+      "moderate": ["s4kin"],
+      "severe": ["SKNH"]
+    },
+    "sayo": {
+      "mild": ["sau"],
+      "moderate": ["s4u"],
+      "severe": ["SAUH"]
+    },
+    "see": {
+      "mild": ["c"],
+      "moderate": ["se3"],
+      "severe": ["CH"]
+    },
+    "sige": {
+      "mild": ["cge", "sge"],
+      "moderate": ["cgeh", "sgeh"],
+      "severe": ["CGEH", "SGEH"]
+    },
+    "siguro": {
+      "mild": ["cguro"],
+      "moderate": ["cgur0", "cgur0h"],
+      "severe": ["CGUROH"]
+    },
+    "sometime": {
+      "mild": ["sumtym"],
+      "moderate": ["s0mtym"],
+      "severe": ["SUMTYMH"]
+    },
+    "sometimes": {
+      "mild": ["sumtyms"],
+      "moderate": ["s0mtymz"],
+      "severe": ["SUMTYMSH"]
+    },
+    "sorry": {
+      "mild": ["sori", "sowi", "sowwwyyyy"],
+      "moderate": ["sowee", "s0ri"],
+      "severe": ["SOWRIEH", "ZOWRIIE", "S0WRIIHH"]
+    },
+    "story": {
+      "mild": ["stry"],
+      "moderate": ["st0ry"],
+      "severe": ["STRYH"]
+    },
+    "sweet": {
+      "mild": ["swt"],
+      "moderate": ["sw33t"],
+      "severe": ["SWTH"]
+    },
+    "take care": {
+      "mild": ["tc"],
+      "moderate": ["tkcr"],
+      "severe": ["TCH"]
+    },
+    "talk to you later": {
+      "mild": ["ttyl"],
+      "moderate": ["t2yl"],
+      "severe": ["TTYLH"]
+    },
+    "tapos": {
+      "mild": ["tpos", "tpz"],
+      "moderate": ["tp0s", "tpzsh"],
+      "severe": ["TPOSH", "TPZH"]
+    },
+    "text": {
+      "mild": ["txt"],
+      "moderate": ["txxt"],
+      "severe": ["TXTH"]
+    },
+    "thanks": {
+      "mild": ["thx"],
+      "moderate": ["tHnx", "tHx"],
+      "severe": ["THXH"]
+    },
+    "that": {
+      "mild": ["dat"],
+      "moderate": ["d4t"],
+      "severe": ["DATH"]
+    },
+    "that's": {
+      "mild": ["dats"],
+      "moderate": ["d4ts"],
+      "severe": ["DATSH"]
+    },
+    "that's all": {
+      "mild": ["datsall"],
+      "moderate": ["d4ts4ll"],
+      "severe": ["DATSALLH"]
+    },
+    "that's it": {
+      "mild": ["datsit"],
+      "moderate": ["d4tsit"],
+      "severe": ["DATSITH"]
+    },
+    "the": {
+      "mild": ["d"],
+      "moderate": ["da"],
+      "severe": ["DH"]
+    },
+    "this": {
+      "mild": ["dis"],
+      "moderate": ["diz"],
+      "severe": ["DISH"]
+    },
+    "this's all": {
+      "mild": ["disall"],
+      "moderate": ["dis4ll"],
+      "severe": ["DISALLH"]
+    },
+    "this's it": {
+      "mild": ["disit"],
+      "moderate": ["d1sit"],
+      "severe": ["DISITH"]
+    },
+    "time": {
+      "mild": ["tym"],
+      "moderate": ["taym"],
+      "severe": ["TaYMH"]
+    },
+    "to": {
+      "mild": ["2"],
+      "moderate": ["tu"],
+      "severe": ["tUohh"]
+    },
+    "umaga": {
+      "mild": ["umga"],
+      "moderate": ["umg4"],
+      "severe": ["UMGAH"]
+    },
+    "wag": {
+      "mild": ["wg"],
+      "moderate": ["w4g"],
+      "severe": ["WGH"]
+    },
+    "wala": {
+      "mild": ["wla"],
+      "moderate": ["wl4"],
+      "severe": ["WLAH"]
+    },
+    "what": {
+      "mild": ["wat", "wut"],
+      "moderate": ["w4t", "whut"],
+      "severe": ["WATH", "WUTH"]
+    },
+    "why": {
+      "mild": ["whyy"],
+      "moderate": ["y"],
+      "severe": ["YH"]
+    },
+    "with": {
+      "mild": ["w"],
+      "moderate": ["wid"],
+      "severe": ["WidH"]
+    },
+    "without": {
+      "mild": ["wout"],
+      "moderate": ["w0ut", "w/o"],
+      "severe": ["WOUTH"]
+    },
+    "would": {
+      "mild": ["wuld"],
+      "moderate": ["wudd"],
+      "severe": ["W0UhLDh"]
+    },
+    "wtf": {
+      "mild": ["wtf"],
+      "moderate": ["wTfzZ", "wTph"],
+      "severe": ["WADAPAK", "WAHDAPAKK", "WADAPHUCK"]
+    },
+    "you": {
+      "mild": ["u"],
+      "moderate": ["yuh", "yu"],
+      "severe": ["UH"]
+    },
+    "your": {
+      "mild": ["your", "ur"],
+      "moderate": ["urh", "yuur"],
+      "severe": ["URH"]
+    }
+  },
+
+  "common_replacements": {
+    "x": "ks",
+    "qe": "ke",
+    "qo": "ko",
+    "qu": "ku",
+    "qi": "ki",
+    "z": "s",
+    "ph": "p",
+    "kh": "k",
+    "ue": "o",
+    "3": "e",
+    "0": "o",
+    "1": "i",
+    "5": "s",
+    "@": "a",
+    "!": "i",
+    "+": "t",
+    "$": "s",
+    "#": "h",
+    "7": "t",
+    "9": "g",
+    "2": "to"
+  }
+}

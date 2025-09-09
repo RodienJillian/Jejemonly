@@ -1,0 +1,93 @@
+{
+    "context_aware_rules": {
+        "2": {
+            "default": "to",
+            "context_rules": [
+                {"pattern": "2(gether|2morrow|2night|2day)$", "replacement": "to"},
+                {"pattern": "^2$", "replacement": "two"},
+                   {"pattern": "(?<=\\d)2|2(?=\\d)", "replacement": "2", "description": "2 adjacent to any digit -> keep as 2"}
+            ]
+        
+        },
+        "4": {
+            "default": "for",
+            "context_rules": [
+            {"pattern": "4(lso|bout|fter|gain|round|live|lone|part|side|head|cross|bove|way|wake|ware|ng|ll|nd|nother|wesome|ko|pat|yos)$", "replacement": "a", "description": "Exceptions: 4 = a"},
+            {"pattern": "[a-zA-Z]+4$", "replacement": "a", "description": "4 at end of word -> a"},
+            {"pattern": "[a-zA-Z]+4[a-zA-Z]+", "replacement": "a", "description": "4 in middle of longer word -> a (default)"},
+            {"pattern": "^.{1,2}4.{0,1}$", "replacement": "a", "description": "short words with 4 -> a"},
+            {"pattern": "^4[a-zA-Z]{2,}$", "replacement": "for", "description": "Default: 4 at start = for"}
+            ]
+
+        },
+        "8": {
+            "default": "b",
+            "context_rules": [
+                {"pattern": "8$", "replacement": "it", "description": "8 at end -> it"},
+                {"pattern": "8[a-zA-Z]", "replacement": "b", "description": "8 followed by letter -> b"},
+                {"pattern": "[a-zA-Z]8[a-zA-Z]", "replacement": "b", "description": "8 in middle -> b"},
+                {"pattern": "^8", "replacement": "b", "description": "8 at beginning -> b"},
+                {"pattern": "8\\d", "replacement": "b", "description": "8 followed by number -> b"}
+            ]
+        },
+        "@": {
+            "default": "a",
+            "context_rules": [
+                {"pattern": "^@", "replacement": "a", "description": "@ at beginning -> a"},
+                {"pattern": "[a-zA-Z]@[a-zA-Z]", "replacement": "a", "description": "@ in middle -> a"},
+                {"pattern": "@$", "replacement": "a", "description": "@ at end -> a"},
+                {"pattern": "@\\d", "replacement": "a", "description": "@ followed by number -> a"},
+                {"pattern": "^.{1,2}@.{0,1}$", "replacement": "a", "description": "@ in short word -> a"}
+            ]
+        },
+        "#": {
+            "default": "h",
+            "context_rules": [
+                {"pattern": "^#", "replacement": "h", "description": "# at beginning -> h"},
+                {"pattern": "[a-zA-Z]#[a-zA-Z]", "replacement": "h", "description": "# in middle -> h"},
+                {"pattern": "#$", "replacement": "h", "description": "# at end -> h"},
+                {"pattern": "#\\d", "replacement": "h", "description": "# followed by number -> h"},
+                {"pattern": "^.{1,2}#.{0,1}$", "replacement": "h", "description": "# in short word -> h"}
+            ]
+        },
+        "$": {
+            "default": "s",
+            "context_rules": [
+                {"pattern": "^\\$", "replacement": "s", "description": "$ at beginning -> s"},
+                {"pattern": "[a-zA-Z]\\$[a-zA-Z]", "replacement": "s", "description": "$ in middle -> s"},
+                {"pattern": "\\$$", "replacement": "s", "description": "$ at end -> s"},
+                {"pattern": "\\$\\d", "replacement": "s", "description": "$ followed by number -> s"},
+                {"pattern": "^.{1,2}\\$.{0,1}$", "replacement": "s", "description": "$ in short word -> s"}
+            ]
+        },
+        "!": {
+            "default": "i",
+            "context_rules": [
+                {"pattern": "^!", "replacement": "i", "description": "! at beginning -> i"},
+                {"pattern": "[a-zA-Z]![a-zA-Z]", "replacement": "i", "description": "! in middle -> i"},
+                {"pattern": "!$", "replacement": "i", "description": "! at end -> i"},
+                {"pattern": "!\\d", "replacement": "i", "description": "! followed by number -> i"},
+                {"pattern": "^.{1,2}!.{0,1}$", "replacement": "i", "description": "! in short word -> i"}
+            ]
+        },
+        "9": {
+            "default": "g",
+            "context_rules": [
+                {"pattern": "^9", "replacement": "g", "description": "9 at beginning -> g"},
+                {"pattern": "[a-zA-Z]9[a-zA-Z]", "replacement": "g", "description": "9 in middle -> g"},
+                {"pattern": "9$", "replacement": "g", "description": "9 at end -> g"},
+                {"pattern": "9\\d", "replacement": "g", "description": "9 followed by number -> g"}
+            ]
+        },
+        "7": {
+            "default": "t",
+            "context_rules": [
+                {"pattern": "^7", "replacement": "t", "description": "7 at beginning -> t"},
+                {"pattern": "[a-zA-Z]7[a-zA-Z]", "replacement": "t", "description": "7 in middle -> t"},
+                {"pattern": "7$", "replacement": "t", "description": "7 at end -> t"},
+                {"pattern": "7\\d", "replacement": "t", "description": "7 followed by number -> t"}
+            ]
+        }
+       
+    }
+} 
